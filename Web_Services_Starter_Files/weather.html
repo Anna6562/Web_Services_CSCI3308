@@ -84,7 +84,7 @@
       return [year,month,date].join('-');
     }
     function getDayofWeek(date, month, year){
-      var week_names = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+      var week_names = ['Sunday','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
       dayOfWeek =  week_names[new Date([month,date,year].join('-')).getDay()];
     }
     function getFarenheitTemp(temp){
